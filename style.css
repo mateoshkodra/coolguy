@@ -23,13 +23,13 @@ left: 400px;
 top: 200px;
 margin: auto;
 padding: 20px;
-border: 0px solid #888;
-width: 20%;
+border: 0px solid #DCDCDC;
+width: 17%;
 }
 
 /* The Close Button */
 .close {
-color: #aaaaaa;
+color: #FFFFFF;
 float: right;
 font-size: 28px;
 font-weight: bold;
@@ -40,4 +40,9 @@ font-weight: bold;
 color: #000;
 text-decoration: none;
 cursor: pointer;
+}
+
+body {
+  background-image: url(https://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-scaled.jpg);
+   background-size: 100% 100%;
 }
