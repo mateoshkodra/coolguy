@@ -8,8 +8,8 @@ var button2 = document.getElementById('button2');
 //modals for forms
 var modal1 = document.getElementById('modal1');
 
-//spans
-var span1 = document.getElementsByClassName("close")[0];
+//closes
+var close1 = document.getElementsByClassName("close1");
 
 //Form #1 - create a lobby
 const form1div = document.getElementById('creating-lobby');
@@ -65,7 +65,7 @@ button1.onclick = function() {
   modal1.style.display = "block";
 }
 
-span1.onclick = function() {
+close1.onclick = function() {
   modal1.style.display = "none";
 }
 
